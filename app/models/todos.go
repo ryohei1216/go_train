@@ -93,3 +93,12 @@ func (t *Todo) UpdateTodo() error {
 	}
 	return err
 }
+
+func (t *Todo) DeleteTodo() error {
+	cmd := `delete from todos where id = ?`
+	_, err = Db.Exec(cmd, t.ID)
+	if err != nil {
+		log.Fatalln(err)
+	}
+	return err
+}
