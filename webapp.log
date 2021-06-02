@@ -1,0 +1,10 @@
+2021/06/02 11:06:56 main.go:16: test
+11:07:23 main.go:16: test
+2021/06/02 11:07:51 main.go:16: test
+2021/06/02 11:08:26 test
+2021/06/02 14:17:23 users.go:32: near "value": syntax error
+2021/06/02 14:21:03 users.go:32: near "value": syntax error
+2021/06/02 14:21:23 users.go:32: near "=": syntax error
+2021/06/02 15:01:21 users.go:56: not enough args to execute query: want 3 got 2
+2021/06/02 15:37:23 todos.go:23: incomplete input
+2021/06/02 15:38:30 todos.go:23: table todos has no column named ctreated_at
